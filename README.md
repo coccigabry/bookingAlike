@@ -33,28 +33,35 @@ Before running the project, ensure you have installed:
 
 ## Installation
 
-1. Clone the repository:
-bash   git clone https://github.com/yourusername/project-name.git   cd project-name   
+1. Clone the repository using Bash:
+   
+   git clone https://github.com/yourusername/project-name.git   cd project-name   
 
-2. Install dependencies for both frontend and backend:
-bash
-Install backend dependencies from project root directory
-   cd backend   npm install
-Install frontend dependencies from project root directory
-   cd client   npm install   
+2. Install dependencies for both frontend and backend using Bash:
 
-3. Set up environment variables:
+   Install backend dependencies from project root directory
+
+   cd backend && npm install
+   
+   Install frontend dependencies from project root directory
+
+   cd client && npm install   
+
+4. Set up environment variables:
+   
    Create `.env` files in both `backend` and `client` directories based on the provided `.env.example` files.
 
-4. Start the development servers:
-bash
-start backend from project root directory 
+6. Start the development servers using Bash:
+    
+   Start backend from project root directory
+
    npm start
-start frontend from project root directory 
+   
+   Start frontend from project root directory
+
    npm run dev  
 
-This will concurrently start both frontend and backend.
-
+   This will concurrently start both frontend and backend.
 
 ## Environment Variables
 
