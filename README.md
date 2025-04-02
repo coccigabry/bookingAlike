@@ -1,6 +1,7 @@
 # Booking-Alike
 
 A Full-Stack JavaScript application built with React.js, Node.js, Express and MongoDB .
+A clone of the famous travel marketplace.
 
 ## Features
 
