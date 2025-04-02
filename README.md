@@ -48,10 +48,12 @@ Install frontend dependencies from project root directory
 
 4. Start the development servers:
 bash
-From project root directory
-   npm run start   
+start backend from project root directory 
+   npm start
+start frontend from project root directory 
+   npm run dev  
 
-This will concurrently start both frontend (port 3000) and backend (port 4000).
+This will concurrently start both frontend and backend.
 
 
 ## Environment Variables
