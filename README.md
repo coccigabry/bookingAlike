@@ -67,8 +67,11 @@ Before running the project, ensure you have installed:
 
 ### Backend (.env)
 START_MONGODB=`url begin`
+
 MONGODB_USERNAME=`username`
+
 MONGODB_PASSWORD=`psw`
+
 END_MONGODB=`querystrings`
 
 ## Contributing
